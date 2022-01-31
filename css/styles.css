@@ -115,3 +115,14 @@ main .contenedor-img {
           margin-bottom: 40px;
      }
 }
+
+@media screen and (max-width: 425px) {
+     .menu {
+          display: none;
+          background: red;
+     }
+
+     .btn-link {
+          margin-bottom: 0.5rem;
+     }
+}
